@@ -79,6 +79,10 @@ button {
     color: white;
     font-weight: bold;
     background-color: #3882F6;
+    border: 1px;
+    border-color: white;
+    border-radius: 4px;
+    width: 30%;
 }
 
 a {
