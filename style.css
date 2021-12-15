@@ -1,0 +1,86 @@
+/* Making everything flex and cahnging direction*/
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/*Making header flex and align properly*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 670px;
+    margin-bottom: 10x;
+}
+
+/*Aligning list horizontaly, removing bullets*/
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.content-picture {
+    display: flex;
+    justify-content: center;
+    column-gap: 115px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+/* Making h1 big and bold and white*/
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+/* Making small text slightly bigger and not so white*/
+
+small,
+ul,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Making header logo stand out */
+
+h5 {
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+/* Making background color blue fot first section*/
+.first {
+    background-color: #1f2937;
+}
+
+/* styling button*/
+button {
+    width: 200px;
+    line-height: 2;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+}
+
+a {
+    text-decoration: none;
+}
