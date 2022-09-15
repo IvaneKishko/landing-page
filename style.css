@@ -143,7 +143,7 @@ a {
 .third .quote {
     font-size: 36px;
     font-style: light italic #1f2937;
-    margin-left: 200px;
+    margin: 0 200px 0 200px;
 }
 
 /* mokled ak unda shevkmna meotxeshi,
@@ -168,14 +168,14 @@ a {
     justify-content: center;
     padding: 20px 130px
 }
-
+/* 
 .lower button {
     border: solid;
     border-color: white;
     border-radius: 4px;
     width: 20%;
     margin-left: 100px;
-}
+} */
 
 .upper {
     font-weight: 600;
@@ -189,4 +189,11 @@ a {
     padding: 20px 130px;
     justify-content: center;
     align-items: center;
+}
+
+.lower p{
+    margin: 5px 0 5px 0;
+}
+.lower p span{
+    font-weight: bold;
 }
